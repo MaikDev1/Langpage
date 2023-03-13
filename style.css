@@ -56,6 +56,28 @@ header {
   flex-direction: row;
 }
 
+.nav1{
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+justify-self: center;
+}
+
+@media only screen and (max-width: 768px){
+  .nav .button{
+    font-size: 1rem;
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 1rem;
+  }
+
+  .nav1 .button{
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+
 .nav a {
   margin-left: 10px;
   color: #fff;
@@ -101,9 +123,9 @@ img {
   transition: transform 0.2s ease-in-out;
   display: inline-block;
   text-decoration: none;
-  color: white;
+  color:white;
   border-bottom: solid 4px transparent;
-  font-size: 16px;
+  font-size: 1.3rem;
 }
 
 
@@ -132,7 +154,7 @@ img {
 
 @media only screen and (max-width: 768px) {
   .resumo {
-    text-align: center;
+    text-align: start;
     padding: 10px;
   }
   .info-filmes {
@@ -155,6 +177,7 @@ img {
 }
 
 .veja {
+  gap: 5rem;
   display: flex;
   justify-content: space-between;
 }
@@ -260,10 +283,10 @@ img {
 }
 
 @keyframes scroll {
-  50% {
+  0% {
     transform: translatex(0);
   }
-  50% {
+  100% {
     transform: translatex(-450px);
   }
 }
