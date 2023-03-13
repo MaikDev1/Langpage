@@ -125,6 +125,13 @@ img {
   width: 100px;
 }
 
+.star img{
+  width: 20px;
+}
+.star{
+  display: flex;
+}
+
 .titulo-icone {
   object-fit: cover;
   width: 50px;
