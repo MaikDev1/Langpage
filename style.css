@@ -325,7 +325,7 @@ img {
 .photos {
   width: 500%;
   width: 2500px;
-  animation: scroll 20s linear infinite;
+  animation: scroll 10s linear infinite;
   mask-repeat: repeat;
 }
 
@@ -339,7 +339,7 @@ img {
     transform: translatex(0);
   }
   100% {
-    transform: translatex(-450px);
+    transform: translatex(-600px);
   }
 }
 .img-filmes:hover {
